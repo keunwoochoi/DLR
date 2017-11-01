@@ -28,7 +28,7 @@ trained model to be restored
 ### 2.3 asset
 test png files for mel, spec, *DLR*
 
-##3. Example
+## 3. Example
 ### 3.1 Mel spectogram
 
 ![mel spectogram](./asset/mel.png)
