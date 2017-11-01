@@ -16,7 +16,8 @@ sudo apt-get install libav-tools
 ## 2. Content
 ### 2.1 python files
 ```
-dlr.py # transform dlr funcs
+config.py # basic configurations
+transform.py # transform y to mel, tempo, *dlr*
 models.py # models to build dlr
 ops.py # tensorflow operations required on models.py
 test.py # how to use
@@ -24,15 +25,18 @@ test.py # how to use
 ### 2.2 save
 trained model to be restored
 
-### 2.3 test_case
-```
-test.mp3
-test.png
-```
+### 2.3 asset
+test png files for mel, spec, *DLR*
 
 ##3. Example
+### 3.1 Mel spectogram
+
 ![mel spectogram](./asset/mel.png)
+### 3.2 Tempogram
+
 ![tempogram](./asset/tempo.png)
+### 3.3 DLR
+
 ![dlr](./asset/DLR.png)
 
 
